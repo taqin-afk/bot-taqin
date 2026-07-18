@@ -392,7 +392,7 @@ anggota berapa ketua berapa
 
 app.get("/", (req, res) => {
 
-  res.send("BOT AKTIF TAQIN 🚀");
+  res.send("BOT VERSI BARU 270 🚀");
 
 });
 
