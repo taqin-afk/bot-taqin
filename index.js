@@ -192,7 +192,7 @@ fitur masih dalam pengembangan 🔥`,
 
         // 🔥 HITUNG UPAH DASAR
         const upahDasar =
-          (data.ton || 0) * 260;
+          (data.ton || 0) * 270;
 
         // 🔥 HITUNG PER ORANG
         const perOrang =
@@ -335,7 +335,7 @@ Gunakan tombol menu di bawah 👇`,
     // ========================================
 
     const upahDasar =
-      ton * 260;
+      ton * 270;
 
     // ========================================
     // 🔥 HITUNG PER ORANG
