@@ -330,12 +330,14 @@ Gunakan tombol menu di bawah 👇`,
         ? parseInt(hargaMatch[1])
         : 0;
 
-    // ========================================
-    // 🔥 HITUNG UPAH DASAR
-    // ========================================
+// ========================================
+// 🔥 AMBIL HASIL HITUNG DARI GOOGLE SHEET
+// ========================================
 
-    const upahDasar =
-      ton * 260;
+const sheetResponse = await axios.get(SHEET_URL);
+const data = sheetResponse.data;
+
+const upahDasar = data.upah || 0;
 
     // ========================================
     // 🔥 HITUNG PER ORANG
