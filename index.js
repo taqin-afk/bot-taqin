@@ -135,7 +135,7 @@ fitur masih dalam pengembangan 🔥`,
       const data = response.data;
 
       const upahDasar =
-        (data.ton || 0) * 260;
+        (data.ton || 0) * 270;
 
       // total pembagian
       const totalPembagian =
@@ -192,7 +192,7 @@ fitur masih dalam pengembangan 🔥`,
 
         // 🔥 HITUNG UPAH DASAR
         const upahDasar =
-          (data.ton || 0) * 260;
+          (data.ton || 0) * 270;
 
         // 🔥 HITUNG PER ORANG
         const perOrang =
